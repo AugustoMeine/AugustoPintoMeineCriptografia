@@ -1,0 +1,18 @@
+<div class="sectionDescriptografia">
+    <div class="p-fluid">
+        <div class="p-field">
+            <label>Texto original</label>
+            <textarea pInputTextarea [rows]="6" [cols]="30" [(ngModel)]="textoOriginal" spellcheck="false"></textarea> 
+        </div>
+
+        <button pButton type="button" label="CRIPTOGRAFAR" (click)="converterBinario()"></button>
+        <button pButton type="button" label="DESCRIPTOGRAFAR"(click)="lerBinario()"></button>
+
+        <div class="p-field">
+            <label>Texto Alterado</label>
+            <textarea pInputTextarea [rows]="5" [cols]="30" [(ngModel)]="textoAlterado" disabled="true" spellcheck="false"></textarea> 
+        </div>
+    </div>
+</div>
+
+

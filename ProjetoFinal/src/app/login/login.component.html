@@ -1,0 +1,21 @@
+<div class="sectionLogin">
+    <div class="divLogin">
+        <div class="p-field p-grid">
+            <label for="login" class="p-col-fixed" style="width:100px">Login</label>
+            <div class="p-col">
+                <input id="login" type="text" pInputText [(ngModel)]="login"> 
+            </div>
+        </div>
+
+        <div class="p-field p-grid">
+            <label for="senha" class="p-col-fixed" style="width:100px">Senha</label>
+            <div class="p-col">
+                <input id="senha" type="password" pInputText [(ngModel)]="senha"> 
+            </div>
+        </div>
+        <br>
+        <button pButton type="button" label="LOGAR" (click)="verificarLogin()"></button> 
+        <button pButton type="button" routerLink="cadastro" label="CADASTRO"></button><br><br>
+    </div>
+</div>
+

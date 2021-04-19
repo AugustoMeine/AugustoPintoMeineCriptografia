@@ -1,0 +1,9 @@
+.header,footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: grey;
+    border:2px solid black;
+    color: darkred;
+    text-align: center;
+    vertical-align: middle;  
+}
